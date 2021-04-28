@@ -22,7 +22,8 @@ aside#menu-responsive {
      top: 0; 
      left: -290px; 
      z-index: 99998; 
-     background: rgb(17 17 17 / 99%); }
+     background: #1e2833; 
+    }
 
 aside#menu-responsive a#abrir { 
     width: 35px; 
@@ -34,15 +35,18 @@ aside#menu-responsive a#abrir {
     right: -35px; 
     z-index: 1; 
     color: rgb(255, 255, 255); 
-    background: #c4da1900; 
+    background: #1e2833; 
     font-size: 1.25em; 
     line-height: 1em; 
     text-align: center; 
     padding: 7.5px 0; 
-    transition: all 0.3s ease-in; }
+    transition: all 0.3s ease-in; 
+}
+
 aside#menu-responsive a#abrir:hover { 
-    background: rgb(206, 73, 50); 
-    transition: all 0.3s ease-in; }
+    background: #E24B2D; 
+    transition: all 0.3s ease-in; 
+}
 
 aside#menu-responsive a#cerrar { 
     width: 35px; 
@@ -54,66 +58,47 @@ aside#menu-responsive a#cerrar {
     top: 20px; right: -35px; 
     z-index: 2; 
     color: rgb(255, 255, 255);  
-    background: rgb(206, 73, 50); 
+    background: #E24B2D; 
     font-size: 1.25em; 
     line-height: 1em; text-align: 
     center; padding: 7.5px 0; 
-    transition: all 0.3s ease-in; }
+    transition: all 0.3s ease-in; 
+}
+
 aside#menu-responsive a#cerrar:hover { 
-    background: #000; 
+    background: #1e2833; 
     color: #ffffff; 
-    transition: all 0.3s ease-in; }
+    transition: all 0.3s ease-in; 
+}
 
-aside#menu-responsive nav { width: 58%; height: auto; display: block; margin: 25px auto 0 auto; float: none; position: relative; }
-aside#menu-responsive nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; font-size: 1em; line-height: 1em; color: #fff; text-decoration: none; padding: 14px 0; text-align: right; }
-aside#menu-responsive nav a:hover {  }
+aside#menu-responsive nav { 
+    width: 58%; 
+    height: auto; 
+    display: block; 
+    margin: 25px auto 0 auto; 
+    float: none; 
+    position: relative; 
+}
 
+aside#menu-responsive nav a { 
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    float: none; 
+    position: relative; 
+    font-size: 1em; 
+    line-height: 1em; 
+    color: #fff; 
+    text-decoration: none; 
+    padding: 14px 0; 
+    text-align: right; 
+}
 
-
-/* Componentes Aside: Menú Responsive Derecha 290px */
-aside#menu-responsive-derecha-290 { width: 290px; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; right: -290px; z-index: 99998; background: rgb(17 17 17 / 99%); }
-
-aside#menu-responsive-derecha-290 a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 20px; left: -35px; z-index: 1; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
-aside#menu-responsive-derecha-290 a#abrir:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
-
-aside#menu-responsive-derecha-290 a#cerrar { width: 35px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 20px; left: -35px; z-index: 2; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
-aside#menu-responsive-derecha-290 a#cerrar:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
-
-aside#menu-responsive-derecha-290 nav { width: 58%; height: auto; display: block; margin: 25px auto 0 auto; float: none; position: relative; }
-aside#menu-responsive-derecha-290 nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; font-size: 1em; line-height: 1em; color: #fff; text-decoration: none; padding: 14px 0; text-align: right; }
-aside#menu-responsive-derecha-290 nav a:hover {  }
-
-
-
-/* Componentes Aside: Menú Responsive Izquierda 100% */
-aside#menu-responsive-100x100 { width: 100%; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; left: -100%; z-index: 99998; background: rgb(17 17 17 / 99%); }
-
-aside#menu-responsive-100x100 a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 20px; right: -35px; z-index: 1; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
-aside#menu-responsive-100x100 a#abrir:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
-
-aside#menu-responsive-100x100 a#cerrar { width: 35px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 20px; left: 0; z-index: 2; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
-aside#menu-responsive-100x100 a#cerrar:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
-
-aside#menu-responsive-100x100 nav { width: 58%; height: auto; display: block; margin: 25px auto 0 auto; float: none; position: relative; }
-aside#menu-responsive-100x100 nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; font-size: 1em; line-height: 1em; color: #fff; text-decoration: none; padding: 14px 0; text-align: center; }
-aside#menu-responsive-100x100 nav a:hover {  }
-
-
-
-/* Componentes Aside: Menú Responsive Derecha 100% */
-aside#menu-responsive-derecha-100x100 { width: 100%; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; right: -100%; z-index: 99998; background: rgb(17 17 17 / 99%); }
-
-aside#menu-responsive-derecha-100x100 a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 20px; left: -35px; z-index: 1; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
-aside#menu-responsive-derecha-100x100 a#abrir:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
-
-aside#menu-responsive-derecha-100x100 a#cerrar { width: 35px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 20px; right: 0; z-index: 2; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
-aside#menu-responsive-derecha-100x100 a#cerrar:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
-
-aside#menu-responsive-derecha-100x100 nav { width: 58%; height: auto; display: block; margin: 25px auto 0 auto; float: none; position: relative; }
-aside#menu-responsive-derecha-100x100 nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; font-size: 1em; line-height: 1em; color: #fff; text-decoration: none; padding: 14px 0; text-align: center; }
-aside#menu-responsive-derecha-100x100 nav a:hover {  }
-
-
+aside#menu-responsive nav a:hover { 
+    color: #E24B2D; 
+    transition: all 0.3s ease-in; 
+}
 
 
 
@@ -136,7 +121,7 @@ aside#boton-whatsapp a {
     float: none;
     position: relative;
     color: #fff;
-    background: #15c415;
+    background: #E24B2D;
     border-radius: 50%;
     font-size: 1.55em;
     line-height: 1em;
@@ -146,8 +131,8 @@ aside#boton-whatsapp a {
 }
 
 aside#boton-whatsapp a:hover{
-    color: #15c415;
-    background: #212121;
+    color: #E24B2D;
+    background: #fff;
     transition: all 0.3s ease-in;
 }
 
@@ -179,6 +164,7 @@ header article figure {
     position: relative;
     
 }
+
 header article figure a {
     width: 100%;
     height: auto;
@@ -188,6 +174,7 @@ header article figure a {
     position: relative;
     transition: all 0.3s ease-in;
 }
+
 header article figure a img {
     width: 100%;
     height: auto;
@@ -197,6 +184,7 @@ header article figure a img {
     position: relative;
     transition: all 0.3s ease-in;
 }
+
 header article figure a:hover{
     opacity: 0.8;
     transition: all 0.3s ease-in;
@@ -212,7 +200,7 @@ header article nav{
     top: 15px;
     right: 50px;
     z-index:99998;
-    background: rgba(255, 255, 255, 0);
+    background: #1e2833;
 }
 
 header article nav a{
@@ -223,7 +211,7 @@ header article nav a{
     float: left;
     position: relative;
     color: #fff;
-    background-color: rgba(26, 52, 93, 0.47);
+    background-color: #1e2833;
     border-radius: 50px;
     font-size: 1em;
     line-height: 1em;
@@ -233,16 +221,11 @@ header article nav a{
     letter-spacing: 0.05em;
 
 }
+
 header article nav a:hover{
     color: #ffffff;
- 
     transition: all 0.3s ease-in;
     background: rgba(255, 0, 0, 0.42);
-}
-
-header article nav a.activo{
- 
- 
 }
 
 main{
@@ -263,7 +246,7 @@ main section#banner-slider{
 
 main section#banner-slider article.slick-slider{ 
     width: 100%; 
-    height: auto;
+    height: 88vh;
     margin: 0 auto;
     float: none;
     position: relative;
@@ -272,7 +255,7 @@ main section#banner-slider article.slick-slider{
 
 main section#banner-slider article.slick-slider figure{
     width: 100%;
-    height: 750px;
+    height: 88vh;
     margin: 0;
     float: left;
     position: relative;
@@ -303,6 +286,7 @@ main section#banner-slider article.slick-slider figure h1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  
 }
+
 main section#banner-slider article.slick-slider figure h2{
     width: 20em;
     text-align: left;
@@ -315,6 +299,7 @@ main section#banner-slider article.slick-slider figure h2{
     letter-spacing: 0.020em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 main section#banner-slider article.slick-slider figure a{
     width: 100px;
     height: auto;
@@ -332,12 +317,12 @@ main section#banner-slider article.slick-slider figure a{
     background: #E24B2D;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 main section#banner-slider article.slick-slider figure  a:hover{
     color: #E24B2D;
     background: #fff;
     transition: all 0.3s ease-in;
 }
-
 
 .slick-prev { left: 50px !important;
      z-index: 998; }
@@ -361,65 +346,64 @@ main section#Perfil div {
     position: relative; 
 }
 
-    main section#Perfil article { 
-        width: 100%;
-        height: 32em;
-        float: none;
-        position: relative;
-        margin: 0 auto;
-        display: block;
-        top: 90px;
-        background: #607f94;
-        border-radius: 100px;
-        box-shadow: 25px 25px 20px rgb(0 0 0 / 35%);
-    }
+main section#Perfil article { 
+    width: 100%;
+    height: 32em;
+    float: none;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    top: 90px;
+    background: #607f94;
+    border-radius: 100px;
+    box-shadow: 25px 25px 20px rgb(0 0 0 / 35%);
+}
     
-    main section#Perfil article figure#foto{
-        width: 50%;
-        height: auto;
-        margin: auto ;
-        float: left;
-        display: block;
-    }
-    main section#Perfil article figure#foto img{
-        width: auto;
-        height: auto;
-        margin: 50px;
-     }
+main section#Perfil article figure#foto{
+    width: 50%;
+    height: auto;
+    margin: auto ;
+    float: left;
+    display: block;
+}
+
+main section#Perfil article figure#foto img{
+    width: auto;
+    height: auto;
+    margin: 50px;
+}
      
-
-    main section#Perfil article figure#texto{ 
-        width: 50%;
-        height: 100%;
-        align-content: center;
-        margin: 0px auto;
-        float: right;
-        position: relative;
-        }
+main section#Perfil article figure#texto{ 
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    margin: 0px auto;
+    float: right;
+    position: relative;
+}
     
-        main section#Perfil article figure#texto h3{
-        text-align: left;
-        text-decoration: none;
-        padding: 1em 28% 0px 0px;
-        color: #1e2833;
-        margin: 0;
-        font-size: 4em;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
+main section#Perfil article figure#texto h3{
+    text-align: left;
+    text-decoration: none;
+    padding: 1em 28% 0px 0px;
+    color: #1e2833;
+    margin: 0;
+    font-size: 4em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-        main section#Perfil article figure#texto p{
+main section#Perfil article figure#texto p{
+    text-align: left;
+    text-decoration: none;
+    padding: 1em 5em 2em 0px;
+    color: #1e2833;
+    margin: 1em 5em 1em 0px;
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-        text-align: left;
-        text-decoration: none;
-        padding: 1em 5em 2em 0px;
-        color: #1e2833;
-        margin: 1em 5em 1em 0px;
-        font-size: 1em;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-        }
-        main section#Perfil article figure#texto a{
-        width: 100px;
+main section#Perfil article figure#texto a{
+    width: 100px;
     height: auto;
     margin: 0 0 0 1%;
     float: none;
@@ -437,14 +421,15 @@ main section#Perfil div {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+main section#Perfil article figure#texto a:hover{
+    color: #fff;
+    background: #E24B2D;
+    border: none;
+    transition: all 0.3s ease-in;
+}
 
 
-
-
-
-
-
-        /* Componente Footer */
+ /* Componente Footer */
 footer { 
     width: 100%; 
     height: auto; 
@@ -462,128 +447,90 @@ footer article {
 
 footer article > a { 
     width: 200px; 
-    height: 71px; 
+    height: 150px; 
     display: block; 
     margin: 0 auto; 
     float: none; 
     position: relative; }
-footer article > a img { width: 30%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
-footer article > a:hover {  }
+
+footer article > a img { 
+    width: 30%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    float: none; 
+    position: relative; }
+
+footer article > a:hover { 
+    opacity: 0.8;
+    transition: all 0.3s ease-in;
+ }
 
 footer article nav { 
-    width: 430px; 
-    height: 35px; 
+    width: 250px; 
+    height: 40px; 
     display: block; 
     margin: 6px auto 0 auto; 
     float: none; 
     position: relative; }
+
 footer article nav a { 
     width: 35px; 
     height: auto; 
     display: block; 
-    margin: 0 89px; 
+    margin: 0 45px; 
     float: left; 
     position: relative; 
-    color: rgb(255, 0, 0); 
+    color:#E24B2D; 
     font-size: 2em; 
     line-height: 1em; 
     text-align: center; 
     padding: 7.5px 0; 
     transition: all 0.3s ease-in; }
-footer article nav a:hover {  }
+
+footer article nav a:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in;
+  }
 
 
 
 /* Tablets */
 @media only screen and (max-width: 1199px){
     aside#menu-responsive { display: block; }
-    aside#menu-responsive-derecha-290 { display: block; }
-    aside#menu-responsive-100x100 { display: block; }
-    aside#menu-responsive-derecha-100x100 { display: block; }
-
     header article { width: 80%; }
     header article nav#menu { display: none; }
-    header article nav#social { margin: 13px 0; position: absolute; top: 0; right: 0; }
     header article figure { margin: 10px auto; float: none; }
-
+    main section#banner-slider article.slick-slider figure h1 { padding: 150px 0px 35px 0px; text-align: center; }
+    main section#banner-slider article.slick-slider figure h2 { padding: 0px 0px 35px 0px; text-align: center; width: 70%; margin: 0 auto; }
+    main section#banner-slider article.slick-slider figure a { margin: 0 auto; }
     /* perfil */
     main section#Perfil article { width: 90%; }
     main section#Perfil article nav a { width: 30%; margin: 1.5%; }
-
-    main section#Perfil div { 
-        width: 90%; 
-        height: auto;
-        padding: 55px 0 0 0;
-    }
-    main section#Perfil article { 
-        width: 100%;
-        height: auto;
-        float: none;
-        background: #607f94;
-        border-radius: 100px;
-        box-shadow: 25px 25px 20px rgb(0 0 0 / 35%);
-        top: 0;
-        padding: 0 0 55px;
-        margin: 0 auto 55px;
-    }
-
-    main section#Perfil article figure#foto{
-        position: relative;
-        width: 290px;
-        height: 363px;
-        margin: 0 auto 35px;
-        float: none;
-        top: 50px;
-        display: block;
-    }
-    main section#Perfil article figure#foto img{
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-        display: block;
-        float: none;
-        position: relative;
-     }
-    main section#Perfil article figure#texto{ 
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-        float: none;
-        display: block;
-        position: relative;
-    }
-    main section#Perfil article figure#texto h3{
-        text-align: center;
-        text-decoration: none;
-        padding: 35px 0 0 0;
-        font-size: 3em;
-    }
-    main section#Perfil article figure#texto p{
-        text-align: center;
-        text-decoration: none;
-        padding: 1em 0;
-        margin: 0 auto;
-    }
-    main section#Perfil article figure#texto a{
-        margin: 0 auto;
-        float: none;
-    }
+    main section#Perfil div { width: 90%; height: auto; padding: 55px 0 0 0; }
+    main section#Perfil article { width: 100%; height: auto; float: none; background: #607f94; border-radius: 100px; box-shadow: 25px 25px 20px rgb(0 0 0 / 35%); top: 0; padding: 0 0 55px;margin: 0 auto 55px; }
+    main section#Perfil article figure#foto{ position: relative; width: 290px; height: 363px; margin: 0 auto 35px; float: none; top: 50px; display: block; }
+    main section#Perfil article figure#foto img{ width: 100%; height: auto; margin: 0 auto; display: block; float: none; position: relative; }
+    main section#Perfil article figure#texto{ width: 90%; height: auto; margin: 0 auto; float: none; display: block; position: relative;}
+    main section#Perfil article figure#texto h3{ text-align: center; text-decoration: none; padding: 35px 0 0 0; font-size: 3em; }
+    main section#Perfil article figure#texto p{ text-align: center; text-decoration: none; padding: 1em 0; margin: 0 auto; }
+    main section#Perfil article figure#texto a{ margin: 0 auto; float: none; }
 }
 
 
 
-@media only screen and (max-width: 899px){
-    
-    
+@media only screen and (max-width: 899px) {
+    aside#menu-responsive { display: block; }
 }
 
 
 @media only screen and (max-width: 799px){
-    /* perfil */
+    aside#menu-responsive { display: block; }
     main section#Perfil article nav a { width: 47%; margin: 1.2%; }
 }
 
 @media only screen and (max-width: 599px){
+    aside#menu-responsive { display: block; }
     header article { width: 95%; }
     header article nav#social { display: none; }
     header article figure { margin: 10px 0; float: right; }
@@ -592,10 +539,12 @@ footer article nav a:hover {  }
 /* Móviles */
 
 @media only screen and (max-width: 449px){
-    /* perfil */
+    aside#menu-responsive { display: block; }
     main section#Perfil article nav a { width: 100%; margin: 0 auto 25px; float: none; display: block; }
-}
+} 
 
-@media only screen and (max-width: 399px){
+@media only screen and (max-width: 399px) {
+    main section#banner-slider article.slick-slider figure h1 { font-size: 3em; }
+    aside#menu-responsive { display: block; }
 
 }
