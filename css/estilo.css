@@ -429,6 +429,344 @@ main section#Perfil article figure#texto a:hover{
 }
 
 
+
+
+main section#banner{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#banner article{
+    width: 100%;
+    height: 88vh;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+
+    background:linear-gradient(rgba(43, 58, 71, 0.5), rgba(43, 58, 71, 0.5)), url('../img/fondos/jonathan-cano-banner.png') no-repeat top center;
+    background-size: cover;
+}
+
+main section#banner article h1{
+    text-align: center;
+    text-decoration: none;
+    padding: 16% 21% 2% 21%;;
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main section#banner article h2{
+    width: 930px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: auto;
+    padding: 0px 0;
+    font-weight: lighter;
+    letter-spacing: 0.020em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+main section#illustrations { 
+    width: 100%; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative;
+    background:#1e2833;
+}
+
+main section#illustrations article { 
+    width: 1100px; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    padding: 50px 0 50px 0;
+}
+
+main section#illustrations article nav { 
+    width: 100%; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+}
+
+main section#illustrations article nav a { 
+    width: 250px; 
+    height: auto; 
+    float: none; 
+    display: inline-block; 
+    margin: 11px; 
+    position: relative; 
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 0.3s ease-in; 
+}
+
+main section#illustrations article nav a img { 
+    width: 100%; 
+    height: auto; 
+    float: none;
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    transition: all 0.3s ease-in; 
+}
+
+main section#illustrations article nav a:hover { 
+    opacity: 0.8; 
+    transition: all 0.3s ease-in; 
+}
+
+main section#illustrations article nav a:hover img { 
+    transform: scale(1.03); 
+    transition: all 0.3s ease-in; 
+}
+
+.fancybox-container { z-index: 99999 !important; }
+
+
+
+
+main section#banner-02{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#banner-02 article{
+    width: 100%;
+    height: 88vh;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+
+    background:linear-gradient(rgba(43, 58, 71, 0.5), rgba(43, 58, 71, 0.5)), url('../img/fondos/jonathan-cano-banner.png') no-repeat top center;
+    background-size: cover;
+}
+
+main section#banner-02 article h1{
+    text-align: center;
+    text-decoration: none;
+    padding: 16% 21% 2% 21%;;
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main section#banner-02 article h2{
+    width: 930px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: auto;
+    padding: 0px 0;
+    font-weight: lighter;
+    letter-spacing: 0.020em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+main section#design { 
+    width: 100%; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative;
+    background:#1e2833;
+}
+
+main section#design article { 
+    width: 1100px; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    padding: 50px 0 50px 0;
+}
+
+main section#design article nav { 
+    width: 100%; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+}
+
+main section#design article nav a { 
+    width: 250px; 
+    height: auto; 
+    float: none; 
+    display: inline-block; 
+    margin: 11px; 
+    position: relative; 
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 0.3s ease-in; 
+}
+
+main section#design article nav a img { 
+    width: 100%; 
+    height: auto; 
+    float: none;
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    transition: all 0.3s ease-in; 
+}
+
+main section#design article nav a:hover { 
+    opacity: 0.8; 
+    transition: all 0.3s ease-in; 
+}
+
+main section#design article nav a:hover img { 
+    transform: scale(1.03); 
+    transition: all 0.3s ease-in; 
+}
+
+.fancybox-container { z-index: 99999 !important; }
+
+
+
+
+main section#banner-03{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#banner-03 article{
+    width: 100%;
+    height: 88vh;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+
+    background:linear-gradient(rgba(43, 58, 71, 0.5), rgba(43, 58, 71, 0.5)), url('../img/fondos/jonathan-cano-banner.png') no-repeat top center;
+    background-size: cover;
+}
+
+main section#banner-03 article h1{
+    text-align: center;
+    text-decoration: none;
+    padding: 16% 21% 2% 21%;;
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main section#banner-03 article h2{
+    width: 930px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: auto;
+    padding: 0px 0;
+    font-weight: lighter;
+    letter-spacing: 0.020em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+main section#audiovisual { 
+    width: 100%; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative;
+    background:#1e2833;
+}
+
+main section#audiovisual article { 
+    width: 1100px; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    padding: 50px 0 50px 0;
+}
+
+main section#audiovisual article nav { 
+    width: 100%; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+}
+
+main section#audiovisual article nav a { 
+    width: 250px; 
+    height: auto; 
+    float: none; 
+    display: inline-block; 
+    margin: 11px; 
+    position: relative; 
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 0.3s ease-in; 
+}
+
+main section#audiovisual article nav a img { 
+    width: 100%; 
+    height: auto; 
+    float: none;
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    transition: all 0.3s ease-in; 
+}
+
+main section#audiovisual article nav a:hover { 
+    opacity: 0.8; 
+    transition: all 0.3s ease-in; 
+}
+
+main section#audiovisual article nav a:hover img { 
+    transform: scale(1.03); 
+    transition: all 0.3s ease-in; 
+}
+
+.fancybox-container { z-index: 99999 !important; }
+
+
+
+
  /* Componente Footer */
 footer { 
     width: 100%; 
@@ -495,6 +833,7 @@ footer article nav a:hover {
 
 
 
+
 /* Tablets */
 @media only screen and (max-width: 1199px){
     aside#menu-responsive { display: block; }
@@ -504,6 +843,7 @@ footer article nav a:hover {
     main section#banner-slider article.slick-slider figure h1 { padding: 150px 0px 35px 0px; text-align: center; }
     main section#banner-slider article.slick-slider figure h2 { padding: 0px 0px 35px 0px; text-align: center; width: 70%; margin: 0 auto; }
     main section#banner-slider article.slick-slider figure a { margin: 0 auto; }
+
     /* perfil */
     main section#Perfil article { width: 90%; }
     main section#Perfil article nav a { width: 30%; margin: 1.5%; }
@@ -515,36 +855,72 @@ footer article nav a:hover {
     main section#Perfil article figure#texto h3{ text-align: center; text-decoration: none; padding: 35px 0 0 0; font-size: 3em; }
     main section#Perfil article figure#texto p{ text-align: center; text-decoration: none; padding: 1em 0; margin: 0 auto; }
     main section#Perfil article figure#texto a{ margin: 0 auto; float: none; }
-}
 
+    main section#banner article h2 { width: 80%; }
+    main section#banner-02 article h2 { width: 80%; }
+    main section#banner-03 article h2 { width: 80%; }
+
+    main section#illustrations article { width: 90%; }
+    main section#design article { width: 90%; }
+    main section#audiovisual article { width: 90%; }
+    main section#illustrations article nav a { width: 30%; margin: 1.5%; }
+    main section#design article nav a { width: 30%; margin: 1.5%; }
+    main section#audiovisual article nav a { width: 30%; margin: 1.5%; }
+}
 
 
 @media only screen and (max-width: 899px) {
     aside#menu-responsive { display: block; }
-}
+
+    main section#illustrations article nav a { margin: 1.3%; }
+    main section#design article nav a { margin: 1.3%; }
+    main section#audiovisual article nav a { margin: 1.3%; }
+
+
+} 
 
 
 @media only screen and (max-width: 799px){
     aside#menu-responsive { display: block; }
     main section#Perfil article nav a { width: 47%; margin: 1.2%; }
+
+    main section#illustrations article nav a { width: 47%; margin: 1.2%; }
+    main section#design article nav a { width: 47%; margin: 1.2%; }
+    main section#audiovisual article nav a { width: 47%; margin: 1.2%; }
+
 }
+
 
 @media only screen and (max-width: 599px){
     aside#menu-responsive { display: block; }
     header article { width: 95%; }
     header article nav#social { display: none; }
     header article figure { margin: 10px 0; float: right; }
+
+
 }
 
 /* Móviles */
 
-@media only screen and (max-width: 449px){
+@media only screen and (max-width: 499px){
     aside#menu-responsive { display: block; }
     main section#Perfil article nav a { width: 100%; margin: 0 auto 25px; float: none; display: block; }
-} 
+
+}
+
+
+@media only screen and (max-width: 449px){
+    main section#illustrations article nav a { width: 100%; margin: 0 auto 25px; float: none; display: block; }
+    main section#design article nav a { width: 100%; margin: 0 auto 25px; float: none; display: block; }
+    main section#audiovisual article nav a { width: 100%; margin: 0 auto 25px; float: none; display: block; }
+}
+
 
 @media only screen and (max-width: 399px) {
     main section#banner-slider article.slick-slider figure h1 { font-size: 3em; }
     aside#menu-responsive { display: block; }
 
+    main section#banner article h1 { font-size: 2.5em;}
+    main section#banner-02 article h1 { font-size: 2.5em;}
+    main section#banner-03 article h1 { font-size: 2.5em;}
 }
