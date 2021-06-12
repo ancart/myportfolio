@@ -875,8 +875,6 @@ footer article nav a:hover {
     main section#illustrations article nav a { margin: 1.3%; }
     main section#design article nav a { margin: 1.3%; }
     main section#audiovisual article nav a { margin: 1.3%; }
-
-
 } 
 
 
@@ -887,7 +885,6 @@ footer article nav a:hover {
     main section#illustrations article nav a { width: 47%; margin: 1.2%; }
     main section#design article nav a { width: 47%; margin: 1.2%; }
     main section#audiovisual article nav a { width: 47%; margin: 1.2%; }
-
 }
 
 
@@ -896,8 +893,6 @@ footer article nav a:hover {
     header article { width: 95%; }
     header article nav#social { display: none; }
     header article figure { margin: 10px 0; float: right; }
-
-
 }
 
 /* Móviles */
@@ -906,6 +901,9 @@ footer article nav a:hover {
     aside#menu-responsive { display: block; }
     main section#Perfil article nav a { width: 100%; margin: 0 auto 25px; float: none; display: block; }
 
+    main section#banner article h1 { padding: 26% 21% 2% 21%;}
+    main section#banner-02 article h1 { padding: 26% 21% 2% 21%;}
+    main section#banner-03 article h1 { padding: 26% 21% 2% 21%;}
 }
 
 
